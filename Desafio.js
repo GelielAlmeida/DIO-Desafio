@@ -1,29 +1,29 @@
 // Desafio Classificador de nível de Herói
 
 let nome = "Heroi de Guerra"
-let quantitdadeDeXp = 15000
+let quantidadeDeXp = 15000
 
-if (quantitdadeDeXp < 1000) {
+if (quantidadeDeXp < 1000) {
 console.log(nome + " é um Herói nível Ferro")
 }
 
-else if (quantitdadeDeXp == 1001 || quantitdadeDeXp == 2000) {
+else if (quantidadeDeXp == 1001 || quantidadeDeXp == 2000) {
 console.log(nome + " é um Herói nível Bronze")
 }
 
-else if (quantitdadeDeXp == 2001 || quantitdadeDeXp == 5000) {
+else if (quantidadeDeXp == 2001 || quantitadeDeXp == 5000) {
 console.log(nome + " é um Herói nível Prata")
 }
 
-else if (quantitdadeDeXp == 5001 || quantitdadeDeXp == 7000) {
+else if (quantidadeDeXp == 5001 || quantidadeDeXp == 7000) {
 console.log(nome + " é um Herói nível Ouro")
 }
 
-else if (quantitdadeDeXp == 7001 || quantitdadeDeXp == 8000) {
+else if (quantidadeDeXp == 7001 || quantidadeDeXp == 8000) {
 console.log(nome + " é um Herói nível Platina")
 }
 
-else if (quantitdadeDeXp == 8001 || quantitdadeDeXp == 9000) {
+else if (quantidadeDeXp == 8001 || quantidadeDeXp == 9000) {
 console.log(nome + " é um Herói nível Ascendente")
 }
 else {
